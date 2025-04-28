@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сборки в наличии - IntelligentPC</title>
+    <link rel="stylesheet" href="sborki.css">
+    <style>
+        .back-to-home {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        .back-to-home a {
+            background-color: transparent;
+            color: white;
+            border: 1px solid white;
+        }
+
+        .shelf {
+            background-color: #222; /* Цвет "полки" */
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            text-align: center; /* Центрируем компьютеры на полке */
+        }
+
+        .computer-item {
+            display: inline-block; /* Чтобы элементы выстраивались в ряд */
+            width: 200px; /* Примерная ширина */
+            margin: 10px;
+            text-align: center;
+        }
+
+        .computer-item img {
+            width: 180px; /* Размер изображения */
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="back-to-home">
+            <a href="index.html">На главную</a>
+        </div>
+        <div class="logo">IntelligentPC</div>
+        <div class="contact-info">
+            <span class="phone">+7 (962) 910-91-44</span>
+        </div>
+    </header>
+
+    <nav>
+        <a href="assemblies.html">Сборки компьютеров</a>
+        <a href="accessories.html">Аксессуары</a>
+        <a href="support.html">Поддержка</a>
+        <a href="servers.html">Серверы</a>
+        <a href="services.html">Услуги</a>
+       
+    </nav>
+
+    <main>
+        <h2 class="page-title">Сборки в наличии</h2>
+
+        <div class="shelf">
+            <div class="computer-item">
+                <img src="" alt="Компьютер 1">
+                <p>Игровой компьютер "Молния"</p>
+                <p>Цена: 120.000 руб.</p>
+            </div>
+            <div class="computer-item">
+                <img src="" alt="Компьютер 2">
+                <p>Рабочая станция "Титан"</p>
+                <p>Цена: 180.000 руб.</p>
+            </div>
+            <div class="computer-item">
+                <img src="" alt="Компьютер 3">
+                <p>Бюджетный компьютер "Эконом"</p>
+                <p>Цена: 60.000 руб.</p>
+            </div>
+        </div>
+
+        <div class="shelf">
+            <div class="computer-item">
+                <img src="" alt="Компьютер 4">
+                <p>Компьютер для стриминга "Поток"</p>
+                <p>Цена: 150.000 руб.</p>
+            </div>
+            <div class="computer-item">
+                <img src="" alt="Компьютер 5">
+                <p>Мини-ПК "Компакт"</p>
+                <p>Цена: 80.000 руб.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.back-to-home {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.back-to-home a {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.shelf {
+    background-color: #222; /* Цвет "полки" */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center; /* Центрируем компьютеры на полке */
+}
+
+.computer-item {
+    display: inline-block; /* Чтобы элементы выстраивались в ряд */
+    width: 200px; /* Примерная ширина */
+    margin: 10px;
+    text-align: center;
+}
+
+.computer-item img {
+    width: 180px; /* Размер изображения */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
